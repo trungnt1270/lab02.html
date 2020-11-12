@@ -1,0 +1,199 @@
+//snippet5.1
+<p style="font-size: 14px; color: purple;"></p>
+
+//snippet5.2
+div.planets
+{
+font-size: 1.5em;
+}
+//snippet5.3
+* {
+font-family: Verdana, Calibri, sans-serif;
+}
+//snippet5.4
+h1
+{
+color:green;
+}
+h2
+{
+color:green;
+}
+p
+{
+color:green;
+}
+//snippet5.5
+h1,h2,p
+{
+color:green;
+}
+//snippet5.6
+p
+{
+color:green;
+}
+.changed
+{
+background-color:red
+}
+//snippet5.7
+a:link
+{
+color: white;
+background-color: black;
+border: 2px solid white;
+}
+//snippet5.8
+a:visited
+{
+color: white;
+background-color: brown;
+border: 2px solid white;
+}
+a:hover
+{
+color: black;
+background-color: white;
+border: 2px solid black;
+}
+//snippet5.9
+p:first-line
+{
+font-family: “Tahoma";
+font-weight: bolder;
+background-color: #FFFFCC;
+}
+//snippet5.10
+#navone a:link {
+text-decoration: underline;
+color: #005;
+background: transparent;
+}
+#navone a:visited {
+text-decoration: none;
+color: #FFA500;
+background: transparent;
+}
+#navone a:hover {
+text-decoration: none;
+color: #FFA500;
+background: transparent;
+}
+#navone a:focus {
+text-decoration: none;
+color: #FFA500;
+background: transparent;
+}
+#navone a:active {
+text-decoration: none;
+color: #FFA500;
+background: transparent;
+}
+
+//snippet5.11
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+.navone:link {
+text-decoration: underline;
+color: #FFF;
+background: #008;
+font-size:30px;
+}
+.navone:visited {
+text-decoration: none;
+color: #FFF;
+background: #06a;
+}
+.navone:hover {
+text-decoration: none;
+color: #FFF;
+background: #000;
+}
+.navone:focus {
+text-decoration: none;
+color: #FFF;
+background: #06b;
+}
+.navone:active {
+text-decoration: underline;
+color: #FFF;
+background: #06F;
+}
+</style>
+</head>
+<body>
+<a href="6.html" class="navone">LinkText</a>
+</body>
+</html>
+
+//snippet6.1
+
+<p>My mother has <span style="color: lightblue">light blue</span>eyes.</p>
+// <span class="eyesonly">light blue</span>
+
+//snippet6.2
+
+.eyesonly {font-color: lightblue}
+
+//snippet6.3
+
+//Inline style
+<p style="text-indent: 50px">
+//Internal CSS
+p {text-indent: 50px}
+
+//snippet6.4
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Font Gallery</title>
+<style>
+p {text-indent: 150px}
+</style>
+</head>
+<body>
+<p>The font styles properties allow you to specify the font for the text. They allow
+you to change the different font attributes of the text such as font, size, and style
+of the text. The browser must support the font specified by the font properties.
+Otherwise, it will display the default font, which is dependent on the browser.
+</p>
+</body>
+</html>
+
+//snippet6.5
+
+//Inline style
+<p style="padding: 20px">
+Internal CSS
+//p {padding: 20px}
+
+//snippet6.6
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Font Gallery</title>
+<style>
+p {padding: 20px }
+</style>
+</head>
+<body>
+<p>The font styles properties allow you to specify the font for the text. They allow
+you to change the different font attributes of the text such as font, size, and style
+of the text. The browser must support the font specified by the font properties.
+Otherwise, it will display the default font, which is dependent on the browser.</p>
+</body>
+</html>
+
+//snippet6.7
+
+//Inline style
+<p style="margin: 20px">
+//Internal CSS
+p {margin: 20px}
